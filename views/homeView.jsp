@@ -5,6 +5,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 		<title>Quickxo - Home</title>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 	</head>
 	<body>
 		<h2>Welcome to Quickxo MVC !</h2>
