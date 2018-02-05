@@ -8,10 +8,11 @@
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 	</head>
 	<body>
+		<img style="display:block;  margin-left:auto;  margin-right:auto;" src="public/images/Quickxo-medium.png" />
 		<h2>Welcome to Quickxo MVC !</h2>
 		
 		<%@page import="com.quickxo.controllers.commands.classes.DbCheckBean" %>  
-		<%  DbCheckBean dBBean = (DbCheckBean)request.getAttribute("dBBean"); %>
+		<% DbCheckBean dBBean = (DbCheckBean)request.getAttribute("dBBean"); %>
 		
 		<table style="border: none;">
 	  		<tr>

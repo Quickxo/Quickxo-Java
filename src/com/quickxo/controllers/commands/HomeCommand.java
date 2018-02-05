@@ -3,17 +3,13 @@
  */
 package com.quickxo.controllers.commands;
 
-import java.io.File;
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
-import java.net.URLDecoder;
 import java.sql.Connection;
 import java.sql.DatabaseMetaData;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
-
 import com.quickxo.controllers.commands.classes.DbCheckBean;
 import com.quickxo.models.*;
 import javax.servlet.RequestDispatcher;
