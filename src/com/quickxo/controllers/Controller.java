@@ -30,7 +30,7 @@ public class Controller extends HttpServlet {
 	    }
 	    commandParameter = commandParameter.replaceAll("[^a-zA-Z0-9]", "");
 	    commandParameter = (commandParameter == "") ? "Home" : commandParameter;
-	    commandParameter = commandParameter.substring(0, 1).toUpperCase() + commandParameter.substring(1).toLowerCase();
+	    commandParameter = commandParameter.substring(0, 1).toUpperCase() + commandParameter.substring(1);
 		try {
 			command = (Command)Class.forName("com.quickxo.controllers.commands." + commandParameter + "Command").getConstructor(new Class[0]).newInstance(new Object[0]);
 		} catch (InstantiationException | IllegalAccessException | IllegalArgumentException
